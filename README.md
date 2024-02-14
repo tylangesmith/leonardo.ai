@@ -1,5 +1,10 @@
 # Leonardo.ai Challenge Stage
 
+<p align="center">
+  <img src="./assets/introduction_image.png" width="720"/>
+</p>
+
+
 This project aims to implement a solution that can compute a similarity metric for image-text pairs. We then leverage this solution to enrich a given dataset, ultimately giving a measure of how similar the image is to the provided caption.
 
 In this README we'll discuss some of design considerations along with providing a brief discussion around the scalability and performance of the solution along with discussing some of the potential practical applications of such a solution.
