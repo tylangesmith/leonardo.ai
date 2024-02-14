@@ -115,3 +115,18 @@ A lot of the time and memory footprint is directly correlated to our model.
 
 👉 Have we compared other similar models that are more performant?
 
+## Challenge 3
+
+> Briefly discuss how your method can be used to effectively curate data for text-to-image model training and provide an explanation
+
+Curating lots of high-quality data is a difficult task, but this is also at the core of some of the most high-quality machine learning models we see today.
+
+To curate a data for a text-to-image model we can leverage our similarity measurement. By having a quantifiable measure of how closely related an image is to it's associate description we are able to systematically curate large amounts of high-quality, diverse, ethical and accurate data.
+
+👉 We can filter out image-text pairs that aren't similar, indicating poor data labelling quality.
+
+👉 We can identify imbalances in the dataset, analyzing the distribution of scores across different categories.
+
+👉 We can identify biases and enhance diversity in our dataset.
+
+👉 We can identify errors in our dataset, e.g. negative similarity scores might indicate items are mislabelled.
