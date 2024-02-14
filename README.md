@@ -1,1 +1,3 @@
-# leonardo.ai
+# Leonardo.ai Challenge Stage
+
+TODO
